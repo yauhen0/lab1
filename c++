@@ -17,7 +17,7 @@ int main()
 		cout << "Enter the calculation accuracy - k" << endl;
 		cin >> k;
 		double function = 1;
-	minifoo = 1
+	int minifoo = 1;
 		for (p = 1; fabs(minifoo) > (pow(10, -k)); p++) {
 			minifoo *= (double)x * p * (2 * p- 1) / (2 * p * p);
 			if (p % 2 == 0) {
